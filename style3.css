@@ -16,7 +16,7 @@ p:first-letter{
     font-family:'Times New Roman';
 }
 #content {
-    width: 704px;
+    width:704px;
     height:600px;
     float:left; 
     background-color:#FFF;     
@@ -43,24 +43,29 @@ ul{
     padding: 0px; 
     width: 720px; 
     list-style: none; 
-    text-transform: uppercase;        
-                 
-}
+    text-transform: uppercase;
+    display: block;
+    
+}                                
 
-li{
-    display:flow-root;
-    float:left;    
+
+ul li{
+    display:block;
+    float: left;    
+    
 }
 
 a {
     padding:0 10px 0 10px;
     line-height: 25px;     
-    text-decoration: none; 
+    text-decoration: none;    
     color: #FFF; 
-    float: left; 
+    float: left;
     display: block; 
     background-image:url(images/nb.gif);
-    background-repeat:repeat-x;    
+    background-repeat:repeat-x;
+    display: block;
+        
 } 
 
 a:link {
@@ -70,17 +75,17 @@ a:link {
 a:visited {
     color: white;
     text-decoration: none;
-    font-weight: bold;   
+    font-weight:400%; 
 }
 
 a:hover {
     background-position: right bottom ;    
     color: #333; 
-    font-weight: bold;
+    font-weight: 400%; 
 }
 
 a:active {
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 400%; 
     text-decoration: underline;
 }
