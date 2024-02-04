@@ -50,7 +50,7 @@ ul{
 
 
 ul li{
-    display:block;
+    display:inline;
     float: left;    
     
 }
