@@ -1,31 +1,33 @@
 #container {
-    width: 704px;
+    width: 693px;
     text-align: justify;
     background-color: #fff;
     margin: auto;    
 }
+
 body{
     background-color: #cccccc;
     font-family: Verdana;
     font-size: 11px;    
 }
+
 p:first-letter{
     color: blue;
     font-weight: bold;
     font-size:38px;
     font-family:'Times New Roman';
 }
+
 #content {
-    width:704px;
+    width:693px;
     height:600px;
     float:left; 
-    background-color:#FFF;     
+    background-color:#FFF;         
 }
 
 h3{
     padding-left: 10px;
 }
-
 
 h1{
     padding-top: 10px;
@@ -35,7 +37,7 @@ h1{
     
 #header{
     height:50px;
-    background-color:#b0b0b0;
+    background-color:#b0b0b0;    
 }
 
 ul{
@@ -43,16 +45,12 @@ ul{
     padding: 0px; 
     width: 720px; 
     list-style: none; 
-    text-transform: uppercase;
-    display: block;
-    
+    text-transform: uppercase;        
 }                                
 
-
-ul li{
+li{
     display:inline;
-    float: left;    
-    
+    float: left; 
 }
 
 a {
@@ -64,8 +62,7 @@ a {
     display: block; 
     background-image:url(images/nb.gif);
     background-repeat:repeat-x;
-    display: block;
-        
+    display: block;        
 } 
 
 a:link {
